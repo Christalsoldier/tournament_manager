@@ -3,7 +3,7 @@ from typing import Optional
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 
-from database.orm.base import Base
+from src.database.orm.base import Base
 
 
 class Player(Base):
