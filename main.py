@@ -11,4 +11,4 @@ if __name__ == "__main__":
     mode = SwissMode(db.get_all_player())
     mode.configure_tournament()
     mode.start_tournament()
-    input("waiting in the end")
+    input("waiting in the end")s

@@ -9,7 +9,7 @@ class SwissMode(TournamentMode):
     def __init__(self, players: list[Player]):
         super().__init__(players, GameModes.swiss)
         self.config: SwissConfig = SwissConfig(len(players))
-        
+
     def configure_tournament(self):
         while True:
             try:
@@ -24,7 +24,7 @@ class SwissMode(TournamentMode):
                 break
             except AttributeError as e:
                 print(e.args[0])
-        
+
     def start_tournament(self):
-        
+
         return super().start_tournament()
